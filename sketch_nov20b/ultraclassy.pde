@@ -4,8 +4,8 @@ class Ball {
   float gravity = 0.1; 
   float braking = 0.1; 
 
-  void Ball(inX, inY, inVelX, inVely, float inVelY) {
-    location = new PVector (inX inY);
+  Ball(float inX, float inY, float inVelX, float inVelY) {
+    location = new PVector (inX, inY);
     velocity = new PVector(inVelX, inVelY);
   }
   void update () {
